@@ -1,0 +1,35 @@
+Index.html<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kit 2 Blusas Seleção 2022</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Kit 2 Blusas da Seleção 2022</h1>
+  <img src="blusa.jpg" alt="Blusa Seleção 2022" class="product-image">
+  
+  <p class="price"><span class="original">R$287</span> <span class="promo">R$197</span></p>
+  
+  <div class="sizes">
+    <p>Escolha o tamanho:</p>
+    <button onclick="selectSize('P')">P</button>
+    <button onclick="selectSize('M')">M</button>
+    <button onclick="selectSize('G')">G</button>
+    <button onclick="selectSize('GG')">GG</button>
+  </div>
+  
+  <p id="selected-size">Tamanho selecionado: nenhum</p>
+  
+  <div class="timer">
+    Promoção termina em: <span id="time">40:00</span>
+  </div>
+  
+  <button class="buy-button" onclick="buy()">Comprar Agora</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
